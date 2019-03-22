@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="postgres@localhost">
+  <database-model serializer="dbm" rdbms="POSTGRES" format-version="4.0">
+    <root id="1"/>
+    <database id="2" parent="1" name="postgres">
+      <ObjectId>13012</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <schema id="3" parent="2" name="public">
+      <ObjectId>2200</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="4" parent="2" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+    </schema>
+    <schema id="5" parent="2" name="pg_toast">
+      <ObjectId>99</ObjectId>
+    </schema>
+    <schema id="6" parent="2" name="pg_temp_1">
+      <ObjectId>11804</ObjectId>
+    </schema>
+    <schema id="7" parent="2" name="pg_toast_temp_1">
+      <ObjectId>11805</ObjectId>
+    </schema>
+    <schema id="8" parent="2" name="information_schema">
+      <ObjectId>12716</ObjectId>
+    </schema>
+    <schema id="9" parent="2" name="pgagent">
+      <ObjectId>16393</ObjectId>
+    </schema>
+    <schema id="10" parent="2" name="pg_temp_3">
+      <ObjectId>16564</ObjectId>
+    </schema>
+    <schema id="11" parent="2" name="pg_toast_temp_3">
+      <ObjectId>16565</ObjectId>
+    </schema>
+    <sequence id="12" parent="3" name="autos_id_seq">
+      <ObjectId>19096</ObjectId>
+      <StateNumber>607</StateNumber>
+    </sequence>
+    <sequence id="13" parent="3" name="users_id_seq">
+      <ObjectId>19087</ObjectId>
+      <StateNumber>605</StateNumber>
+    </sequence>
+    <table id="14" parent="3" name="autos">
+      <ObjectId>19098</ObjectId>
+      <StateNumber>607</StateNumber>
+    </table>
+    <table id="15" parent="3" name="users">
+      <ObjectId>19089</ObjectId>
+      <StateNumber>607</StateNumber>
+    </table>
+  </database-model>
+</dataSource>
